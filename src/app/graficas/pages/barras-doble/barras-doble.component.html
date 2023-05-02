@@ -1,1 +1,11 @@
-<p>barras-doble works!</p>
+<h1> Graficas Barras Doble</h1>
+<hr>
+<div class="row">
+    <div class="col">
+        <app-graficas-barra [horizontal]="true"
+                           [barChartData]="productoData"></app-graficas-barra>
+    </div>
+    <div class="col">
+        <app-graficas-barra [barChartData]="proveedoresData"></app-graficas-barra>
+    </div>
+</div>
